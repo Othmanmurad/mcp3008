@@ -26,4 +26,4 @@ class MCP3008:
 #test
 if __name__ == "__main__":    
     with MCP3008(channel = 0) as ch0:
-        print ch0.read()
+        print(ch0.read())  # Changed from print ch0.read()
